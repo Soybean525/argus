@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Starting Scene.unity
+    guid: f90b346be79759e44a55988019aa95bc
+  - enabled: 1
+    path: Assets/Scenes/AI Test.unity
+    guid: 1e89366a1e75be943a17f32d6d4f8952
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: 8e101419144367545bfd8ea7ac3b06e6
+  - enabled: 1
+    path: Assets/Scenes/Pompeii.unity
+    guid: 72d6b6ce090b84a6badf4e7ae362c96e
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: bf2cf99196174b84fb24c3c5dd09ec30
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: aac9793fd0ecdad47adfcedcdae5144e
   m_configObjects: {}

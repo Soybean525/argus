@@ -6,6 +6,7 @@ public class Attack : MonoBehaviour
 {
     public static int aim;
     public Chain wack;
+    public Dash woosh;
     void Update()
     {
         if (Input.GetAxis("HorizontalATK") != 0 && Input.GetAxis("VerticalATK") != 0)
@@ -50,5 +51,12 @@ public class Attack : MonoBehaviour
         {
             Instantiate(wack, transform.position, Quaternion.identity);
         }
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            Instantiate(woosh, transform.position, Quaternion.identity);
+        }
     }
+        
+
+
 }

@@ -19,7 +19,7 @@ public class Enemy2 : MonoBehaviour
         {
             transform.Translate(0, 0, speed * Time.deltaTime);
         }
-        if (Vector3.Distance(other.position, transform.position) < 1.5 && cooldown < 1)
+        if (Vector3.Distance(other.position, transform.position) < 3 && cooldown < 1)
         {
             Instantiate(enemy2attack, transform.TransformPoint(Vector3.forward), transform.rotation);
             cooldown = 1.5f;
